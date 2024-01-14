@@ -1,0 +1,19 @@
+name: MyPlugin
+version: 1.0.0
+main: io.github.oboolt.plugin.Main
+description: My plugin using grable to build
+author: oBoolt
+api-version: '1.20'
+prefix: 'Log - MyPlugin'
+permissions:
+  vault:
+    description: "Permissions related to the vault command"
+    default: op
+    children:
+      vault.open: false
+      vault.admin: true
+commands:
+  vault:
+    description: "Open your personal vault"
+    usage: "/command"
+    aliases: ["chest", "endchest"]

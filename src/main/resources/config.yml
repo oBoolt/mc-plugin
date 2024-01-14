@@ -1,0 +1,5 @@
+# All the texts use the MiniMessage format
+# To see the full documentation, refer to https://docs.advntr.dev/minimessage/format.html
+messages:
+  join-message: "<green>Hello <yellow><bold>%player%</yellow>, welcome to the server" # %player% = player name
+  leave-message: "<red>Bye <yellow><bold>%player%</yellow>, hope to see you soon" # %player% = player name
